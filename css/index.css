@@ -1,0 +1,270 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(2, 3, 27);
+    box-shadow:2px 2px 12px rgba(192, 186, 186, 0.2);
+    padding:30px 20%;
+    border: white;
+    margin-bottom: -5%;
+  }
+  .navbar-header{
+    margin: 1.5em;
+    font-weight: bold;
+    color: white;
+   
+  
+  }
+  .navbar-brand{
+    font-family: Bell MT;  
+    font-weight: bold;
+    color: white;
+  }
+  .navbar-header a{
+      left: -40%;
+      color: white;
+      
+      top: -80%;
+      transform: translate(-20%,  -80%);
+
+  }
+ 
+    
+    
+  
+  .nav{
+    font-weight: bold;
+    justify-content: space-between;   
+   
+  }
+  nav li{
+    margin: 1.5em;
+    font-family: Bell MT;
+    left: 50%;
+    font-size: 120%;
+    font-weight: bold;
+  
+  }
+  body, html {
+    height: 100%;
+  }
+  .getIt{
+    background-image:linear-gradient( rgba(29, 16, 63, 0.5), rgba(0, 0, 0, 0.5)), url('../images/section.jpg');
+    height: 150%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    background-attachment: fixed;
+    margin-bottom: 2%;;
+  }
+  .getIt div h1{
+    color: white;
+    text-align: center;
+    position: absolute;
+    height: 120%;
+    top: 60%;
+    left: 15%;
+    transform: translate(-20%, -30%);
+    background-color: rgb(8, 4, 27);
+    opacity: 0.5;
+    padding: 8%;
+    font-family: Bell MT;
+    font-size: 600%;
+   
+  }
+  .getIt div h3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+    top: 90%;
+    left: 18%;
+    transform: translate(-20%, -30%);
+    opacity: 0.9;
+
+    font-family: Bell MT;
+    font-size: 130%;
+   
+  }
+  .getIt div h5{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 18%;
+    transform: translate(-20%, -30%);
+    opacity: 0.9;
+    font-weight: 900;
+
+    font-family: Bell MT;
+    font-size: 110%;
+   
+  }
+  .container h2{
+    text-align: center;
+    margin-bottom: 3%;
+    font-family: impact;
+  }
+  .row h3{
+    font-family: impact;
+  
+  }
+  .col-sm-6 img{
+    width:100%;
+    height: 100%;
+  }
+  .col-sm-6 p{
+    height: 100%;
+  }
+  .container{
+    margin-bottom: 2%;
+    
+  }
+  .general{
+    text-align: center;
+    color: white;
+  }
+  .smallP{
+    text-align: center;
+    color: white;
+  }
+  #pics{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/aho.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    background-attachment: fixed;
+    margin-bottom: 2%;;
+  }
+  #pics h2{
+    color: white;
+  }
+  .medium{
+    text-align: center;
+    color: white;
+  
+  }
+  .large{
+    text-align: center;
+    color: white;
+  
+  }
+  .chooseSize option{
+    width: 30%;
+  
+  }
+  #orders{
+    margin-top: 2%;
+  }
+  #formFull{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/drop.jpg");
+    padding: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+  }
+  .form-group label{
+    text-align: center;
+    color: white;
+  }
+  #show-contact {
+    display: none;
+  }
+  .contact {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  .contact:hover {
+    text-decoration: underline;
+  }
+  .results{
+    text-align: center;
+    display: none;
+    justify-content: center;
+  }
+  #formD{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/drop.jpg");
+    padding: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  .DeliverNotes{
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    border-radius: 30%;
+    margin-bottom: 2%;
+   
+  }
+  .DeliverNotes button{
+    background-color: #337AFF;
+    color: white;
+    padding: 3%;
+  }
+  #subm{
+    background-color: #337AFF ;
+    color: white;
+  }
+  #formD{
+    display: none;
+  }
+  #formD p{
+    text-align: center;
+    font-size: 120%;
+  }
+  .jumbotron{
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/media.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+    
+  }
+  .theForm{
+    padding: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  .theForm h2{
+    color:white;
+    margin-bottom: 2%;
+  }
+  #inName input,
+  #inEmail input,
+  #inMessage input{
+    background:none;
+    border: gray groove;
+    color: #ffffff;
+  }
+  .form-group textarea{
+    background: none;
+    border:gray groove;
+    color: #ffffff;
+    width: 90%;
+  
+  }
+  .iconz a{
+    margin:20px 10px;  
+  }
+  .iconz i{
+    color:white;
+    align-items: center;
+    
+  
+  }
+  
+  .iconz a:hover{
+    box-shadow:2px 2px 12px rgba(255, 254, 254, 0.856);
+    transition:all ease 0.5s;
+  }
+  footer{
+    text-align: center;
+    margin-top:-1%;
+    margin-bottom: 2%;
+  }
