@@ -268,3 +268,30 @@
     margin-top:-1%;
     margin-bottom: 2%;
   }
+  h1{
+    text-align:center;
+    color: bisque;
+    }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  /* .grid-container {
+    display: grid;
+    grid-row-gap: 50px;
+  } */
+  }
+  /* body{
+      background-color: rgb(10, 10, 27) ;
+  } */
+  figcaption{
+      color: aliceblue;
+      font-size: 20px;
+      padding-top: 0cm;
+  
+  }
+  .h{
+    margin-top: -20px;
+  }
+  #dropdown-content{
+    background-color: rgb(10, 10, 27) ;
+  }
