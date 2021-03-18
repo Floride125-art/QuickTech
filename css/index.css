@@ -1,10 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;  
+}
+
 .navbar{
     display:flex;
     justify-content: space-between;
     background-color:rgb(2, 3, 27);
     box-shadow:2px 2px 12px rgba(192, 186, 186, 0.2);
     padding:30px 20%;
-    border: white;
+    border: rgb(182, 73, 73);
     margin-bottom: -5%;
   }
   .navbar-header{
@@ -174,13 +181,14 @@
   #show-contact {
     display: none;
   }
+  /*
   .contact {
     cursor: pointer;
     color: #0088cc;
   }
   .contact:hover {
     text-decoration: underline;
-  }
+  }/*
   .results{
     text-align: center;
     display: none;
@@ -263,12 +271,13 @@
     box-shadow:2px 2px 12px rgba(255, 254, 254, 0.856);
     transition:all ease 0.5s;
   }
+  /*
   footer{
     text-align: center;
     margin-top:-1%;
     margin-bottom: 2%;
-  }
-  h1{
+  }*/
+  .e{
     text-align:center;
     color: bisque;
     }
@@ -295,3 +304,85 @@
   #dropdown-content{
     background-color: rgb(10, 10, 27) ;
   }
+
+
+  .form-intro{
+    padding: 5%;
+}
+.form{padding: 1%;
+    margin: 1%; 
+    background-color:#fdfcf7;
+    border-radius: 5px;
+    
+}
+.send{
+    background-color: rgb(58, 72, 92);
+
+}
+footer{
+    width: 100vw;
+    overflow: hidden;}
+
+
+.upper_footer{
+    background-color: rgb(58, 72, 92);
+    /*background-color: rgb(58, 72, 92);*/
+    height: auto;
+    margin: 0;
+    padding: 1%;
+    color: white;
+    
+}
+.upper_footer li{
+    display: inline-block;
+    margin-right:20px ;
+}
+.upper_footer li i{
+    color: white ;
+    
+}
+.upper_footer h4{
+    color: rgb(187, 184, 184);
+}
+.upper_footer p a{
+    color: white ;
+    
+    
+}
+.upper_footer hr{
+    width: 100px;
+    color: white;
+    border: none;
+    height: 2px;
+    color: #333; 
+    background-color: #333;
+}
+.upper_footer p a:hover{
+    text-decoration: none ;
+    color: white ;
+    background-color:rgb(88, 85, 85) ;
+    padding: 5px;
+    border-left:thick solid white;
+}
+.upper_footer p i{
+    margin-right:10px ;
+    color: white;
+}
+
+.col1 h1{
+    padding-top: 15px;
+    padding-bottom:
+     15px;
+}
+.lower_footer{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin: 0;
+    clear: both;
+}
+
+.lower_footer p{
+    color: white;
+    text-align: center;
+}
