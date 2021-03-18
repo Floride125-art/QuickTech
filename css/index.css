@@ -316,7 +316,8 @@
     
 }
 .send{
-    background-color: rgb(58, 72, 92);
+
+  background-color:rgb(2, 3, 27);
 
 }
 footer{
@@ -325,7 +326,8 @@ footer{
 
 
 .upper_footer{
-    background-color: rgb(58, 72, 92);
+    /*background-color: rgb(58, 72, 92);*/
+    background-color:rgb(2, 3, 27);
     /*background-color: rgb(58, 72, 92);*/
     height: auto;
     margin: 0;
